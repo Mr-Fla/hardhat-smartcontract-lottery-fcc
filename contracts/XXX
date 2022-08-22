@@ -1,0 +1,9 @@
+1.  yarn add --dev hardhat
+2.  yarn hardhat
+2b. Create an empty hardhat config.js
+3.  yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomiclabs/hardhat-etherscan @nomiclabs/hardhat-waffle chai ethereum-waffle hardhat hardhat-contract-sizer hardhat-deploy hardhat-gas-reporter prettier prettier-plugin-solidity solhint solidity-coverage dotenv
+4.  ....hardhat.config....
+5.  .... .prettierrc ....
+6.  ....Raffle.sol ....
+7.  yarn hardhat compile
+-----yarn global add hardhat-shorthand => yarn hardhat compile => hh compile
